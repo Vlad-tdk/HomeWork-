@@ -11,6 +11,14 @@
 		F59550592B2B764800601055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550582B2B764800601055 /* ContentView.swift */; };
 		F595505B2B2B764A00601055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595505A2B2B764A00601055 /* Assets.xcassets */; };
 		F595505E2B2B764A00601055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F595505D2B2B764A00601055 /* Preview Assets.xcassets */; };
+		F59550652B2B774C00601055 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550642B2B774C00601055 /* LoginView.swift */; };
+		F59550692B2B77C800601055 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550682B2B77C800601055 /* ButtonView.swift */; };
+		F595506B2B2B77FA00601055 /* ButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595506A2B2B77FA00601055 /* ButtonAppearance.swift */; };
+		F595506D2B2B785C00601055 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595506C2B2B785C00601055 /* UserName.swift */; };
+		F595506F2B2B789100601055 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595506E2B2B789100601055 /* Timer.swift */; };
+		F59550712B2B78C300601055 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550702B2B78C300601055 /* UserManager.swift */; };
+		F59550732B2B790300601055 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550722B2B790300601055 /* StorageManager.swift */; };
+		F59550782B2B7C7300601055 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59550772B2B7C7300601055 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		F59550582B2B764800601055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F595505A2B2B764A00601055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F595505D2B2B764A00601055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F59550642B2B774C00601055 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F59550682B2B77C800601055 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F595506A2B2B77FA00601055 /* ButtonAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearance.swift; sourceTree = "<group>"; };
+		F595506C2B2B785C00601055 /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		F595506E2B2B789100601055 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		F59550702B2B78C300601055 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		F59550722B2B790300601055 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		F59550772B2B7C7300601055 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,11 @@
 		F59550552B2B764800601055 /* HomeWork# */ = {
 			isa = PBXGroup;
 			children = (
+				F59550792B2B7DB600601055 /* Views */,
 				F59550562B2B764800601055 /* HomeWork_App.swift */,
-				F59550582B2B764800601055 /* ContentView.swift */,
+				F595506A2B2B77FA00601055 /* ButtonAppearance.swift */,
+				F595506C2B2B785C00601055 /* UserName.swift */,
+				F59550762B2B7A0200601055 /* Managers */,
 				F595505A2B2B764A00601055 /* Assets.xcassets */,
 				F595505C2B2B764A00601055 /* Preview Content */,
 			);
@@ -65,6 +84,27 @@
 				F595505D2B2B764A00601055 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F59550762B2B7A0200601055 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F59550702B2B78C300601055 /* UserManager.swift */,
+				F59550722B2B790300601055 /* StorageManager.swift */,
+				F595506E2B2B789100601055 /* Timer.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F59550792B2B7DB600601055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F59550682B2B77C800601055 /* ButtonView.swift */,
+				F59550582B2B764800601055 /* ContentView.swift */,
+				F59550642B2B774C00601055 /* LoginView.swift */,
+				F59550772B2B7C7300601055 /* RootView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59550712B2B78C300601055 /* UserManager.swift in Sources */,
+				F595506B2B2B77FA00601055 /* ButtonAppearance.swift in Sources */,
+				F59550652B2B774C00601055 /* LoginView.swift in Sources */,
+				F59550692B2B77C800601055 /* ButtonView.swift in Sources */,
+				F59550782B2B7C7300601055 /* RootView.swift in Sources */,
 				F59550592B2B764800601055 /* ContentView.swift in Sources */,
+				F595506D2B2B785C00601055 /* UserName.swift in Sources */,
+				F59550732B2B790300601055 /* StorageManager.swift in Sources */,
 				F59550572B2B764800601055 /* HomeWork_App.swift in Sources */,
+				F595506F2B2B789100601055 /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
